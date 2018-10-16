@@ -7,11 +7,11 @@ npm i npm-toggle -g
 ```
 
 ### usage
-**taobao**
+**> taobao**
 ```
 toggle --taobao
 ```
-**npm**
+**> npm**
 ```
 toggle --npm
 ```
