@@ -1,0 +1,25 @@
+{
+  "name": "npm-toggle",
+  "version": "0.0.1",
+  "description": "toggle npm registry between taobao and npm",
+  "main": "toggle.js",
+  "scripts": {},
+  "bin": {
+    "toggle": "./toggle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtboy1995/npm-toggle.git"
+  },
+  "author": "dtboy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtboy1995/npm-toggle/issues"
+  },
+  "homepage": "https://github.com/dtboy1995/npm-toggle#readme",
+  "dependencies": {
+    "colors": "^1.3.2",
+    "commander": "^2.19.0",
+    "execa": "^1.0.0"
+  }
+}
