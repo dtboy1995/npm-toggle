@@ -1,11 +1,10 @@
 {
   "name": "npm-toggle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "toggle npm registry between taobao and npm",
-  "main": "toggle.js",
   "scripts": {},
   "bin": {
-    "toggle": "./bin"
+    "toggle": "./bin/index.js"
   },
   "repository": {
     "type": "git",
