@@ -1,17 +1,21 @@
 # npm-toggle
-:hammer: toggle npm registry between taobao and npm
+:hammer: npm源切换工具
 
-### install
+### 安装 linux下可能需要sudo
 ```
-npm i npm-toggle -g
+npm i npm-toggle -g 
 ```
 
-### usage
-**> taobao**
+### 使用
+**切换淘宝源**
 ```
-toggle --taobao
+toggle -t
 ```
-**> npm**
+**切换官方源**
 ```
-toggle --npm
+toggle -n
+```
+**查看当前源**
+```
+toggle -r
 ```
