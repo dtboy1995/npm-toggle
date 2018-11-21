@@ -3,7 +3,7 @@
 
 ### 安装 (linux下非root用户需要sudo)
 ```
-npm i npm-toggle -g 
+[sudo] npm i npm-toggle -g 
 ```
 
 ### 使用
