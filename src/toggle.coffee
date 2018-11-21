@@ -22,7 +22,7 @@ script = if registry then 'npm config get registry' else "npm config set registr
 exec.shell script
     .then ({stdout}) ->
       unless registry
-        console.log("npm registry has switched to #{yellow url}");
+        console.log "npm registry has switched to #{yellow url}"
       else
-        console.log("current registry is #{yellow stdout}");
+        console.log "current registry is #{yellow stdout}"
     .catch console.error
