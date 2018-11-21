@@ -1,7 +1,7 @@
 # npm-toggle
 :hammer: npm源切换工具
 
-### 安装 linux下可能需要sudo
+### 安装 (linux下非root用户需要sudo)
 ```
 npm i npm-toggle -g 
 ```
