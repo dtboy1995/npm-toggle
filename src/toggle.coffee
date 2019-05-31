@@ -29,6 +29,8 @@ if publish
       exec.shell "npm config set registry #{TAOBAO}"
     .then ->
       console.log "npm registry has switched to taobao"
+    .catch (err) ->
+      console.log err
 else 
   exec.shell script
       .then ({stdout}) ->

@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/npm-toggle.png?compact=true)](https://npmjs.org/package/npm-toggle)
+
 # npm-toggle
 :hammer: npm源切换工具
 
@@ -18,4 +20,8 @@ toggle -n
 **查看当前源**
 ```
 toggle -r
+```
+**自动切换源并发布**
+```
+toggle -p
 ```

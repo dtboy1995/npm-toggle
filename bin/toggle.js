@@ -35,6 +35,8 @@
       return exec.shell("npm config set registry " + TAOBAO);
     }).then(function() {
       return console.log("npm registry has switched to taobao");
+    })["catch"](function(err) {
+      return console.log(err);
     });
   } else {
     exec.shell(script).then(function(arg) {
